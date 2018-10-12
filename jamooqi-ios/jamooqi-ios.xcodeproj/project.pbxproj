@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3301C2038B0005B4E26F14DF /* Pods_jamooqi_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69BEA6C16D0480BB87AE580 /* Pods_jamooqi_iosTests.framework */; };
+		B67EEA4B1FE10C9D54CA347C /* Pods_jamooqi_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC04E070FE36DB5F852EFEA /* Pods_jamooqi_ios.framework */; };
+		D4F8643E8390E47DD2D2876D /* Pods_jamooqi_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F49E840C3AFF875D14B7E14 /* Pods_jamooqi_iosUITests.framework */; };
 		EC4F6DA02170882A00E2166E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F6D9F2170882A00E2166E /* AppDelegate.swift */; };
 		EC4F6DA22170882A00E2166E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F6DA12170882A00E2166E /* ViewController.swift */; };
 		EC4F6DA52170882A00E2166E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4F6DA32170882A00E2166E /* Main.storyboard */; };
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F49E840C3AFF875D14B7E14 /* Pods_jamooqi_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jamooqi_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71783EBA803082D558C75813 /* Pods-jamooqi-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jamooqi-iosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-jamooqi-iosTests/Pods-jamooqi-iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		99B767C87F1469549F83BD59 /* Pods-jamooqi-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jamooqi-iosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jamooqi-iosTests/Pods-jamooqi-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A600E02F012D441AA5C34DC /* Pods-jamooqi-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jamooqi-iosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jamooqi-iosUITests/Pods-jamooqi-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9DC04E070FE36DB5F852EFEA /* Pods_jamooqi_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jamooqi_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78C7F219C8613412EE81219 /* Pods-jamooqi-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jamooqi-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-jamooqi-ios/Pods-jamooqi-ios.release.xcconfig"; sourceTree = "<group>"; };
+		B0598C3582E69A0E405737E7 /* Pods-jamooqi-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jamooqi-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jamooqi-ios/Pods-jamooqi-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		D9DA1D448B733BFCAC540854 /* Pods-jamooqi-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jamooqi-iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-jamooqi-iosUITests/Pods-jamooqi-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EC4F6D9C2170882A00E2166E /* jamooqi-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jamooqi-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC4F6D9F2170882A00E2166E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC4F6DA12170882A00E2166E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		EC4F6DBB2170882C00E2166E /* jamooqi-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jamooqi-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC4F6DBF2170882C00E2166E /* jamooqi_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jamooqi_iosUITests.swift; sourceTree = "<group>"; };
 		EC4F6DC12170882C00E2166E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69BEA6C16D0480BB87AE580 /* Pods_jamooqi_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jamooqi_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B67EEA4B1FE10C9D54CA347C /* Pods_jamooqi_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3301C2038B0005B4E26F14DF /* Pods_jamooqi_iosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4F8643E8390E47DD2D2876D /* Pods_jamooqi_iosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66F5DF5D5BEB818C864BA0AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DC04E070FE36DB5F852EFEA /* Pods_jamooqi_ios.framework */,
+				F69BEA6C16D0480BB87AE580 /* Pods_jamooqi_iosTests.framework */,
+				6F49E840C3AFF875D14B7E14 /* Pods_jamooqi_iosUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3AAD3862E3216260FBFF780 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0598C3582E69A0E405737E7 /* Pods-jamooqi-ios.debug.xcconfig */,
+				A78C7F219C8613412EE81219 /* Pods-jamooqi-ios.release.xcconfig */,
+				99B767C87F1469549F83BD59 /* Pods-jamooqi-iosTests.debug.xcconfig */,
+				71783EBA803082D558C75813 /* Pods-jamooqi-iosTests.release.xcconfig */,
+				9A600E02F012D441AA5C34DC /* Pods-jamooqi-iosUITests.debug.xcconfig */,
+				D9DA1D448B733BFCAC540854 /* Pods-jamooqi-iosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EC4F6D932170882A00E2166E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				EC4F6DB32170882C00E2166E /* jamooqi-iosTests */,
 				EC4F6DBE2170882C00E2166E /* jamooqi-iosUITests */,
 				EC4F6D9D2170882A00E2166E /* Products */,
+				E3AAD3862E3216260FBFF780 /* Pods */,
+				66F5DF5D5BEB818C864BA0AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +172,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC4F6DC42170882C00E2166E /* Build configuration list for PBXNativeTarget "jamooqi-ios" */;
 			buildPhases = (
+				DF3A354D910E97FDB061D6BA /* [CP] Check Pods Manifest.lock */,
 				EC4F6D982170882A00E2166E /* Sources */,
 				EC4F6D992170882A00E2166E /* Frameworks */,
 				EC4F6D9A2170882A00E2166E /* Resources */,
@@ -149,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC4F6DC72170882C00E2166E /* Build configuration list for PBXNativeTarget "jamooqi-iosTests" */;
 			buildPhases = (
+				7BD20E8F1C1BF9F2534B005A /* [CP] Check Pods Manifest.lock */,
 				EC4F6DAC2170882C00E2166E /* Sources */,
 				EC4F6DAD2170882C00E2166E /* Frameworks */,
 				EC4F6DAE2170882C00E2166E /* Resources */,
@@ -167,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC4F6DCA2170882C00E2166E /* Build configuration list for PBXNativeTarget "jamooqi-iosUITests" */;
 			buildPhases = (
+				EFD330493CB773616267B6CD /* [CP] Check Pods Manifest.lock */,
 				EC4F6DB72170882C00E2166E /* Sources */,
 				EC4F6DB82170882C00E2166E /* Frameworks */,
 				EC4F6DB92170882C00E2166E /* Resources */,
@@ -250,6 +293,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7BD20E8F1C1BF9F2534B005A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jamooqi-iosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF3A354D910E97FDB061D6BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jamooqi-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFD330493CB773616267B6CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jamooqi-iosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EC4F6D982170882A00E2166E /* Sources */ = {
@@ -430,14 +530,12 @@
 		};
 		EC4F6DC52170882C00E2166E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0598C3582E69A0E405737E7 /* Pods-jamooqi-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "jamooqi-ios/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "patsita.experiment.jamooqi-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -447,14 +545,12 @@
 		};
 		EC4F6DC62170882C00E2166E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A78C7F219C8613412EE81219 /* Pods-jamooqi-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "jamooqi-ios/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "patsita.experiment.jamooqi-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -464,16 +560,13 @@
 		};
 		EC4F6DC82170882C00E2166E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99B767C87F1469549F83BD59 /* Pods-jamooqi-iosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "jamooqi-iosTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "patsita.experiment.jamooqi-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -484,16 +577,13 @@
 		};
 		EC4F6DC92170882C00E2166E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71783EBA803082D558C75813 /* Pods-jamooqi-iosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "jamooqi-iosTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "patsita.experiment.jamooqi-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -504,15 +594,12 @@
 		};
 		EC4F6DCB2170882C00E2166E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A600E02F012D441AA5C34DC /* Pods-jamooqi-iosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "jamooqi-iosUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "patsita.experiment.jamooqi-iosUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -523,15 +610,12 @@
 		};
 		EC4F6DCC2170882C00E2166E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9DA1D448B733BFCAC540854 /* Pods-jamooqi-iosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "jamooqi-iosUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "patsita.experiment.jamooqi-iosUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
