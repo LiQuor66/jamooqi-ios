@@ -21,6 +21,7 @@
 		EC4F6DE4217090F400E2166E /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F6DE3217090F400E2166E /* Localizable.swift */; };
 		EC4F6DE92170946B00E2166E /* PersistantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F6DE82170946B00E2166E /* PersistantService.swift */; };
 		EC4F6DEB21709A8300E2166E /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F6DEA21709A8300E2166E /* Defaults.swift */; };
+		EC4F6DF021709DC500E2166E /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4F6DEF21709DC500E2166E /* Settings.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		EC4F6DE3217090F400E2166E /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
 		EC4F6DE82170946B00E2166E /* PersistantService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistantService.swift; sourceTree = "<group>"; };
 		EC4F6DEA21709A8300E2166E /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		EC4F6DEF21709DC500E2166E /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		F69BEA6C16D0480BB87AE580 /* Pods_jamooqi_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jamooqi_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -148,6 +150,7 @@
 		EC4F6D9E2170882A00E2166E /* jamooqi-ios */ = {
 			isa = PBXGroup;
 			children = (
+				EC4F6DEC21709D9100E2166E /* Scene */,
 				EC4F6DE62170943700E2166E /* Services */,
 				EC4F6DE2217090CD00E2166E /* Helper */,
 				EC4F6DDB21708F9A00E2166E /* Resources */,
@@ -210,6 +213,30 @@
 				EC4F6DE82170946B00E2166E /* PersistantService.swift */,
 			);
 			path = Persistant;
+			sourceTree = "<group>";
+		};
+		EC4F6DEC21709D9100E2166E /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				EC4F6DED21709DAF00E2166E /* Settings */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		EC4F6DED21709DAF00E2166E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EC4F6DEE21709DB800E2166E /* Views */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		EC4F6DEE21709DB800E2166E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC4F6DEF21709DC500E2166E /* Settings.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,6 +351,7 @@
 				EC4F6DDE21708FEE00E2166E /* Localizable.strings in Resources */,
 				EC4F6DA72170882C00E2166E /* Assets.xcassets in Resources */,
 				EC4F6DA52170882A00E2166E /* Main.storyboard in Resources */,
+				EC4F6DF021709DC500E2166E /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
