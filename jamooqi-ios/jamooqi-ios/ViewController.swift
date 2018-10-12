@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  jamooqi-ios
 //
-//  Created by Patsita Kongkaew on 10/12/18.
+//  Created by Patsita on 10/12/18.
 //  Copyright © 2018 jamooqi. All rights reserved.
 //
 
