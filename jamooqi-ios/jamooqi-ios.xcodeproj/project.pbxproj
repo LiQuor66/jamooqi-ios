@@ -19,6 +19,8 @@
 		EC4F6DC02170882C00E2166E /* jamooqi_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F6DBF2170882C00E2166E /* jamooqi_iosUITests.swift */; };
 		EC4F6DDE21708FEE00E2166E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC4F6DE021708FEE00E2166E /* Localizable.strings */; };
 		EC4F6DE4217090F400E2166E /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F6DE3217090F400E2166E /* Localizable.swift */; };
+		EC4F6DE92170946B00E2166E /* PersistantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F6DE82170946B00E2166E /* PersistantService.swift */; };
+		EC4F6DEB21709A8300E2166E /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F6DEA21709A8300E2166E /* Defaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		EC4F6DDF21708FEE00E2166E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EC4F6DE121708FF400E2166E /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EC4F6DE3217090F400E2166E /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
+		EC4F6DE82170946B00E2166E /* PersistantService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistantService.swift; sourceTree = "<group>"; };
+		EC4F6DEA21709A8300E2166E /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
 		F69BEA6C16D0480BB87AE580 /* Pods_jamooqi_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jamooqi_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -144,6 +148,7 @@
 		EC4F6D9E2170882A00E2166E /* jamooqi-ios */ = {
 			isa = PBXGroup;
 			children = (
+				EC4F6DE62170943700E2166E /* Services */,
 				EC4F6DE2217090CD00E2166E /* Helper */,
 				EC4F6DDB21708F9A00E2166E /* Resources */,
 				EC4F6D9F2170882A00E2166E /* AppDelegate.swift */,
@@ -186,8 +191,25 @@
 			isa = PBXGroup;
 			children = (
 				EC4F6DE3217090F400E2166E /* Localizable.swift */,
+				EC4F6DEA21709A8300E2166E /* Defaults.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		EC4F6DE62170943700E2166E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EC4F6DE72170945600E2166E /* Persistant */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EC4F6DE72170945600E2166E /* Persistant */ = {
+			isa = PBXGroup;
+			children = (
+				EC4F6DE82170946B00E2166E /* PersistantService.swift */,
+			);
+			path = Persistant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -383,7 +405,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC4F6DE92170946B00E2166E /* PersistantService.swift in Sources */,
 				EC4F6DA22170882A00E2166E /* ViewController.swift in Sources */,
+				EC4F6DEB21709A8300E2166E /* Defaults.swift in Sources */,
 				EC4F6DE4217090F400E2166E /* Localizable.swift in Sources */,
 				EC4F6DA02170882A00E2166E /* AppDelegate.swift in Sources */,
 			);
