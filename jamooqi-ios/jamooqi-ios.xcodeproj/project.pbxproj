@@ -17,6 +17,8 @@
 		EC4F6DAA2170882C00E2166E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4F6DA82170882C00E2166E /* LaunchScreen.storyboard */; };
 		EC4F6DB52170882C00E2166E /* jamooqi_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F6DB42170882C00E2166E /* jamooqi_iosTests.swift */; };
 		EC4F6DC02170882C00E2166E /* jamooqi_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F6DBF2170882C00E2166E /* jamooqi_iosUITests.swift */; };
+		EC4F6DDE21708FEE00E2166E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC4F6DE021708FEE00E2166E /* Localizable.strings */; };
+		EC4F6DE4217090F400E2166E /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F6DE3217090F400E2166E /* Localizable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,11 @@
 		EC4F6DBB2170882C00E2166E /* jamooqi-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jamooqi-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC4F6DBF2170882C00E2166E /* jamooqi_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jamooqi_iosUITests.swift; sourceTree = "<group>"; };
 		EC4F6DC12170882C00E2166E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC4F6DD921708F6D00E2166E /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Main.strings; sourceTree = "<group>"; };
+		EC4F6DDA21708F6D00E2166E /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		EC4F6DDF21708FEE00E2166E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EC4F6DE121708FF400E2166E /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EC4F6DE3217090F400E2166E /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
 		F69BEA6C16D0480BB87AE580 /* Pods_jamooqi_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jamooqi_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -137,6 +144,8 @@
 		EC4F6D9E2170882A00E2166E /* jamooqi-ios */ = {
 			isa = PBXGroup;
 			children = (
+				EC4F6DE2217090CD00E2166E /* Helper */,
+				EC4F6DDB21708F9A00E2166E /* Resources */,
 				EC4F6D9F2170882A00E2166E /* AppDelegate.swift */,
 				EC4F6DA12170882A00E2166E /* ViewController.swift */,
 				EC4F6DA32170882A00E2166E /* Main.storyboard */,
@@ -163,6 +172,22 @@
 				EC4F6DC12170882C00E2166E /* Info.plist */,
 			);
 			path = "jamooqi-iosUITests";
+			sourceTree = "<group>";
+		};
+		EC4F6DDB21708F9A00E2166E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC4F6DE021708FEE00E2166E /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EC4F6DE2217090CD00E2166E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EC4F6DE3217090F400E2166E /* Localizable.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +279,7 @@
 			knownRegions = (
 				en,
 				Base,
+				th,
 			);
 			mainGroup = EC4F6D932170882A00E2166E;
 			productRefGroup = EC4F6D9D2170882A00E2166E /* Products */;
@@ -273,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC4F6DAA2170882C00E2166E /* LaunchScreen.storyboard in Resources */,
+				EC4F6DDE21708FEE00E2166E /* Localizable.strings in Resources */,
 				EC4F6DA72170882C00E2166E /* Assets.xcassets in Resources */,
 				EC4F6DA52170882A00E2166E /* Main.storyboard in Resources */,
 			);
@@ -357,6 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC4F6DA22170882A00E2166E /* ViewController.swift in Sources */,
+				EC4F6DE4217090F400E2166E /* Localizable.swift in Sources */,
 				EC4F6DA02170882A00E2166E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +425,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				EC4F6DA42170882A00E2166E /* Base */,
+				EC4F6DD921708F6D00E2166E /* th */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -405,8 +434,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				EC4F6DA92170882C00E2166E /* Base */,
+				EC4F6DDA21708F6D00E2166E /* th */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EC4F6DE021708FEE00E2166E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC4F6DDF21708FEE00E2166E /* en */,
+				EC4F6DE121708FF400E2166E /* th */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -416,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -477,6 +517,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -535,7 +576,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "jamooqi-ios/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "patsita.experiment.jamooqi-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -550,7 +594,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "jamooqi-ios/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "patsita.experiment.jamooqi-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -566,7 +613,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "jamooqi-iosTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "patsita.experiment.jamooqi-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -583,7 +634,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "jamooqi-iosTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "patsita.experiment.jamooqi-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -599,7 +654,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "jamooqi-iosUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "patsita.experiment.jamooqi-iosUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -615,7 +674,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "jamooqi-iosUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "patsita.experiment.jamooqi-iosUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
